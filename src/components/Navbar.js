@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import logo from "../logo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,7 +6,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
 
-  const [ scrollNav , setScrollNav ] = useState(false);
+  const [ scrollnav , setScrollNav ] = useState(false);
 
   const changeNav = () => {
     if(window.scrollY >= 110) {
@@ -26,10 +25,11 @@ const Navbar = () => {
   };
 
   return (
+    
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
 
-        <a className="navbar-brand" href="#" onClick={toggleHome}><h6 className="logo">Kapil Patel</h6></a>
+        <a className="navbar-brand" href="/#" onClick={toggleHome}><h6 className="logo">Kapil Patel</h6></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
       </div>
     </nav>
-  )
+  );
 }
 
 export default Navbar

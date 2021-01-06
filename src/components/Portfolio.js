@@ -20,9 +20,9 @@ const Portfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={dholu} alt="Dholu Consultants Project" />
         <p>Website for Insurance and RTO agent using React and Styled Components.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://dholuconsultants.netlify.app/", "_blank")}>https://dholuconsultants.netlify.app/</a>
+        <b>Demo:</b> <a className="hyper-link"  href="/#" onClick={() => window.open("https://dholuconsultants.netlify.app/", "_blank")}>https://dholuconsultants.netlify.app/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+        <b>GitHub:</b> <a className="hyper-link"  href="/#" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -42,9 +42,9 @@ const Portfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={burger} alt="burger builder" />
         <p>Small Website to make your own burger and order them using React and Other React components. </p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://kpburgerbuilder.netlify.app/", "_blank")}>https://kpburgerbuilder.netlify.app/</a>
+        <b>Demo:</b> <a className="hyper-link"  href="/#" onClick={() => window.open("https://kpburgerbuilder.netlify.app/", "_blank")}>https://kpburgerbuilder.netlify.app/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -64,9 +64,9 @@ const Portfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={badshah} alt="badshah collection" />
         <p>E-commerce website for clothing store. I have developed frontend of this website as a Junior developer. </p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://www.badshahcollection.com/", "_blank")}>https://www.badshahcollection.com/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://www.badshahcollection.com/", "_blank")}>https://www.badshahcollection.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+        <b>GitHub:</b> <a className="hyper-link"  href="/#" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -86,9 +86,9 @@ const Portfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={memories} alt="memories app" />
         <p>Share your memories app using MERN Stack. It's an Open App for everyone who can add their memories with images and can delete them.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://yourmemories.netlify.app/", "_blank")}>https://yourmemories.netlify.app/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://yourmemories.netlify.app/", "_blank")}>https://yourmemories.netlify.app/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
       </>
     )
     PopupboxManager.open({ content })
