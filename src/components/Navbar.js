@@ -3,6 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import { Nav } from "./headerElements";
 
 const Navbar = () => {
 
@@ -25,7 +26,6 @@ const Navbar = () => {
   };
 
   return (
-    
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
 

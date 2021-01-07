@@ -6,9 +6,9 @@ const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const { register, handleSubmit, errors } = useForm();
 
-  const serviceID = "service_ID";
-  const templateID = "template_ID";
-  const userID = "user_RXtQk9xbkcuxeI8Wr9FD4";
+  const serviceID = "kapilpatel1234";
+  const templateID = "template_portfolio";
+  const userID = "user_XxKS12UGBdXERmfEnEYQ6";
 
   const onSubmit = (data, r) => {
     sendEmail(
@@ -93,7 +93,7 @@ const Contacts = () => {
                   name="email"
                   ref={
                     register({
-                      required: "Please provide you email",
+                      required: "Please provide your email",
                       pattern: {
                         value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                         message: "invalid Email"

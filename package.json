@@ -17,6 +17,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-hook-form": "^6.13.1",
+    "react-icons": "^4.1.0",
     "react-particles-js": "^3.4.1",
     "react-popupbox": "^2.0.8",
     "react-responsive-carousel": "^3.2.11",
@@ -24,6 +25,7 @@
     "react-scroll": "^1.8.1",
     "react-share": "^4.3.1",
     "react-typed": "^1.2.0",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
