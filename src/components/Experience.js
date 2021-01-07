@@ -11,7 +11,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2014-2015</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <p>I have worked as Junior Web developer at JPWebpanel from September 2014 till Octomber 2015. I Consulted regularly with customers on project status, proposals and technical issues. I Transformed existing websites to correct errors, upgrade interfaces, and improve efficiency </p>
           </div>
         </div>
         {/* - */}
@@ -19,7 +19,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2018-2020</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <p>I am working as Freelancer from July 2018 till current date and have developed Websites as Per Client's requirements and specifications. Right now I am using React as a Frontend techonlogy and Node as backend technology for full web application development. </p>
           </div>
         </div>
       </div>

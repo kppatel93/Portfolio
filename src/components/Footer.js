@@ -1,14 +1,4 @@
 import React from "react";
-import {
-  FacebookShareButton,
-  FacebookIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
-  LinkedinShareButton,
-  LinkedinIcon
-} from "react-share";
 
 const Footer = () => {
   return (
@@ -28,34 +18,12 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center ">
             <div className="d-flex justify-content-center social">
-              <FacebookShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <FacebookIcon className="mx-3" size={36} />
-              </FacebookShareButton>
-              <TwitterShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <TwitterIcon className="mx-3" size={36} />
-              </TwitterShareButton>
-              <RedditShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <RedditIcon className="mx-3" size={36} />
-              </RedditShareButton>
-              <LinkedinShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <LinkedinIcon className="mx-3" size={36} />
-              </LinkedinShareButton>
+            <div className="rounded-social-buttons">
+                    <a className="social-button facebook" href="https://www.facebook.com/kapil.patel.5851/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
+                    <a className="social-button twitter" href="https://twitter.com/kapildrocker" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
+                    <a className="social-button linkedin" href="https://www.linkedin.com/in/kapil-patel9011/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a className="social-button github" href="https://github.com/kppatel93" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+            </div>
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
